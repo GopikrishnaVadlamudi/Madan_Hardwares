@@ -25,3 +25,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.
 
 
 
+=======
+# Madan_Hardwares
+Madan Hardware shopping cart
+>>>>>>> da51c220ca0145afac08413616e2e901ae93b5c9
