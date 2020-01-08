@@ -3,7 +3,12 @@
   <div class="col-3">
     <product-filter [category]="category"></product-filter>
   </div>
-  <div class="col">
+  <div class="col-9">
+  <ngbd-carousel></ngbd-carousel>
+</div>
+<div class="col-3"></div>
+  <div class="col-9">
+    <br>
     <div class="row" *ngIf="cart$ | async as cart">
         <ng-container *ngFor="let p of filteredProducts; let i = index">
           <div class="col">

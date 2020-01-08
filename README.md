@@ -1,4 +1,4 @@
-# Organic Shop
+<!-- # Organic Shop
 
 This project demonstrates a simple e-commerce application for an imaginary organic shop. It is built with Angular, Firebase and Bootstrap 4 as the final project in my complete Angular course: 
 
@@ -21,11 +21,6 @@ Before running this application on your machine, create a Firebase project. You 
 
 ## Running the Application
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`.  -->
 
-
-
-=======
-# Madan_Hardwares
-Madan Hardware shopping cart
->>>>>>> da51c220ca0145afac08413616e2e901ae93b5c9
+#Madan Hardwares

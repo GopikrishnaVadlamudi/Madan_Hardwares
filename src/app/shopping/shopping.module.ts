@@ -14,6 +14,7 @@ import { ShippingFormComponent } from './components/shipping-form/shipping-form.
 import { ShoppingCartSummaryComponent } from './components/shopping-cart-summary/shopping-cart-summary.component';
 import { ShoppingCartComponent } from './components/shopping-cart/shopping-cart.component';
 import { OrderDetailComponent } from './components/order-detail/order-detail.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 @NgModule({
   imports: [
@@ -36,7 +37,8 @@ import { OrderDetailComponent } from './components/order-detail/order-detail.com
     ProductFilterComponent,
     ShoppingCartSummaryComponent,
     ShippingFormComponent,
-    OrderDetailComponent
+    OrderDetailComponent,
+    CarouselComponent
   ]
 })
 export class ShoppingModule { }
