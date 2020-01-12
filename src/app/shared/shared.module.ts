@@ -17,6 +17,7 @@ import { ProductService } from './services/product.service';
 import { ShoppingCartService } from './services/shopping-cart.service';
 import { UserService } from './services/user.service';
 import { CompanyService } from './services/company.service';
+import { NgbdModalComponent, NgbdModalContent } from './components/modal-popup/modal-popup.component';
 
 @NgModule({
   imports: [
@@ -31,6 +32,8 @@ import { CompanyService } from './services/company.service';
   declarations: [
     ProductCardComponent,
     ProductQuantityComponent,
+    NgbdModalComponent, 
+    NgbdModalContent,
   ],
   exports: [
     ProductCardComponent,
@@ -52,6 +55,9 @@ import { CompanyService } from './services/company.service';
     ShoppingCartService,
     OrderService,
     CompanyService
+  ],
+  entryComponents: [
+    NgbdModalContent
   ]
 })
 export class SharedModule { }

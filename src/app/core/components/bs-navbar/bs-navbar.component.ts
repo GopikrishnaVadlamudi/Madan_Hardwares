@@ -13,6 +13,7 @@ import { Component, OnInit } from '@angular/core';
 export class BsNavbarComponent implements OnInit {
   appUser: AppUser;
   cart$: Observable<ShoppingCart>;
+  mailText:string = "";
 
   constructor(private auth: AuthService, private shoppingCartService: ShoppingCartService) { 
   }
@@ -20,6 +21,7 @@ export class BsNavbarComponent implements OnInit {
   async ngOnInit() { 
     this.auth.appUser$.subscribe(appUser => this.appUser = appUser);
     this.cart$ = await this.shoppingCartService.getCart();
+    this.mailText = "mailto:madanmegan@gmail.com+?subject=&body=";
   }
 
   logout() {
